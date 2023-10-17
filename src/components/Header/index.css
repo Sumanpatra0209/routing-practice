@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.logoTitleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.navItemsList {
+  display: flex;
+  flex-direction: row;
+}
+
+.linkItem {
+  list-style-type: none;
+}
+
+.routeLink {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 16px;
+}
